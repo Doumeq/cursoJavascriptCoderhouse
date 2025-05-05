@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nombre": "Televisor",
+        "precio": 5000
+    },
+    {
+        "id": 2,
+        "nombre": "Lavarropas",
+        "precio": 8000
+    },
+    {
+        "id": 3,
+        "nombre": "Microondas",
+        "precio": 2000
+    },
+    {
+        "id": 4,
+        "nombre": "Secadora",
+        "precio": 4000
+    },
+    {
+        "id": 5,
+        "nombre": "Cocina",
+        "precio": 13000
+    }
+]
