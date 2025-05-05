@@ -1,4 +1,4 @@
-const productosUrl = 'json/productos.json';
+const productosUrl = './json/productos.json';
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
 //Hare uso de Fetch para capturar el json en el DOM (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API ; https://www.w3schools.com/jsref/api_fetch.asp)
