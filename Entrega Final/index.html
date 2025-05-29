@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Final - ElectroShop</title>
+    <link rel="icon" href="imagenes/logo.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/carrito.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="imagenes/logo.jpg" alt="ElectroShop Logo" class="logo">
+        <h1 class="titulo">ElectroShop</h1>
+    </header>
+    <section class="seccionHero">
+        <h2>Bienvenido a ElectroShop</h2>
+        <p>
+            Encuentra los mejores electrodomésticos y gadgets para tu hogar<br>¡Siempre con calidad, garantía y los últimos lanzamientos en un solo lugar!
+        </p>
+    </section>
+    <main class="contenedorPrincipal">
+        <section class="contenedorCarrusel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="contenedorProductos"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <aside class="carrito">
+            <div class="cabeceraCarrito">
+                <h2 class="tituloCarrito">Carrito</h2>
+                <button id="botonVaciarCarrito" class="botonVaciar"> Vaciar carrito </button>
+                <button id="botonFinalizarPedido" class="botonFinalizar"> Finalizar pedido </button>
+            </div>
+            <div id="contenedorCarrito"></div>
+            <div id="totalCarrito" class="totalCarrito">Total: $0</div>
+        </aside>
+    </main>
+</body>
+</html>
+
+<!-- Documentacion de las librerias externas que se usaron
+    https://sweetalert2.github.io/ (modales y toast/mensajes)
+    https://swiperjs.com/ (Carrousel)
+
+    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_delegation
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+-->

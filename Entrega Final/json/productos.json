@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "nombre": "Auricularess Inalámbricos",
+        "precio": 59,
+        "imagen": "auriculares.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Reloj Deportivo",
+        "precio": 79,
+        "imagen": "smartwatch.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "Altavoz Bluetooth",
+        "precio": 45,
+        "imagen": "altavoz.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "Televisoor 50'",
+        "precio": 99,
+        "imagen": "tele.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "Licuadora",
+        "precio": 15,
+        "imagen": "licuadora.jpg"
+    },
+    {
+        "id": "6",
+        "nombre": "Heladera",
+        "precio": 110,
+        "imagen": "heladera.jpg"
+    },
+    {
+        "id": "7",
+        "nombre": "Notebook",
+        "precio": 150,
+        "imagen": "notebook.jpg"
+    },
+    {
+        "id": "8",
+        "nombre": "Reloj de pared",
+        "precio": 8,
+        "imagen": "reloj.jpg"
+    },
+    {
+        "id": "9",
+        "nombre": "Mouse Inalmbrico",
+        "precio": 12,
+        "imagen": "mouse.jpg"
+    },
+    {
+        "id": "10",
+        "nombre": "Freidora de Aire",
+        "precio": 30,
+        "imagen": "freidora.jpg"
+    },
+    {
+        "id": "11",
+        "nombre": "Microondas",
+        "precio": 150,
+        "imagen": "microondas.jpg"
+    }
+]
